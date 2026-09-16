@@ -73,7 +73,9 @@ Steps implemented and why:
 Completed all intermediate CSS requirements. The page has clean spacing, demonstrated positioning modes, handled a float layout with clear, and is deployed live on GitHub Pages.
 <img width="1888" height="956" alt="image" src="https://github.com/user-attachments/assets/4189e5a8-79c4-40a7-b786-42a9af6df523" />
 <img width="1894" height="922" alt="image" src="https://github.com/user-attachments/assets/e1843ffb-3c66-4cb0-93ba-e8572643f506" />
+<img width="1867" height="928" alt="image" src="https://github.com/user-attachments/assets/24c2a27a-4522-4c44-b57c-856ecfd012f8" />
 ![Uploading image.png…]()
+
 
 
 file:///C:/assignment1/index.html  My webpage
