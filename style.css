@@ -1,0 +1,193 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+h1 {
+    font-size: 2rem;
+    color: #1a5276;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+.page-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.header-div {
+    background-color: #eaf2f8;
+    padding: 15px 20px;
+    border: 1px solid #aed6f1;
+    margin-bottom: 20px;
+}
+
+.main-div {
+    padding: 5px;
+}
+
+.footer-div {
+    text-align: center;
+    padding: 15px;
+    background-color: #f2f4f4;
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+}
+
+.footer-div p {
+    margin: 0;
+}
+
+
+.highlight {
+    background-color: #fff3cd;
+    padding: 6px 10px;
+    border-left: 4px solid #ffc107;
+    margin: 10px 0;
+}
+
+
+a {
+    color: #1a5276;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.my-photo {
+    width: 180px;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+
+
+button {
+    padding: 8px 16px;
+    border: 1px solid #1a5276;
+    background-color: #1a5276;
+    color: white;
+    cursor: pointer;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #eaf2f8;
+}
+
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid #bbb;
+}
+
+input[type="color"] {
+    width: 50px;
+    height: 30px;
+}
+
+input[type="submit"] {
+    padding: 8px 16px;
+    border: 1px solid #1a5276;
+    background-color: #1a5276;
+    color: white;
+    cursor: pointer;
+}
+
+
+.pos-static {
+    position: static;
+    background-color: #f8f9f9;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    margin: 10px 0;
+}
+
+.pos-relative {
+    position: relative;
+    top: 6px;
+    left: 15px;
+    background-color: #e8f8f5;
+    padding: 10px;
+    border: 1px solid #1abc9c;
+    margin: 10px 0;
+}
+
+.pos-parent {
+    position: relative;
+    background-color: #fef9e7;
+    border: 1px solid #f1c40f;
+    padding: 15px;
+    margin: 15px 0;
+    height: 70px;
+}
+
+.pos-absolute {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+
+.float-container {
+    width: 100%;
+}
+
+.float-box-left {
+    float: left;
+    width: 46%;
+    background-color: #ebf5fb;
+    border: 1px solid #3498db;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.float-box-right {
+    float: right;
+    width: 46%;
+    background-color: #fbfcfc;
+    border: 1px solid #95a5a6;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.clear-fix {
+    clear: both;
+}

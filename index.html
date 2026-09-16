@@ -1,33 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>My First Webpage</title>
+    <link rel="icon" type="image/png" href="c:\Users\sayaz\Downloads\favicon.png">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1 id="main-heading">Berdibay Sayazhan</h1>
-    <h2>IT-2501, 2nd year  </h2>
-    <h3>About me</h3>
-    <p>Hello,World! I am Sayazhan. A fun fact about me is that I am left-handed and I am learning Japanese.</p>
-    <h3>My top 3 favorite hobbies</h3>
-    <ol>
-        <li>Table tennis</li>
-        <li>Debating</li>
-        <li>Watching k-dorams</li>
-    </ol>
-    <h3>my favorite websites</h3>
-    <ul>
-        <li><a href="https://www.youtube.com/?app=desktop&hl=ru" target="_blank">YouTube</a></li>
-        <li><a href="https://web.telegram.org/" target="_blank">Telegram</a></li>
-    </ul>
-    <h3>My Photo</h3>
-    <img src="https://via.placeholder.com/150" alt="My Photo" width="150">
-    <p>Check out <a href="https://astanait.edu.kz" target="_blank">Astana IT University</a> website.</p>
-    <!-- Part 1, Step 4: Button -->
-    <button>Click Me</button>
-    <script>
-        // Part 1, Step 4: Add an event listener to the button
-        document.querySelector('button').addEventListener('click', function() {
-            alert('Button clicked!');
-        });
+
+    <div class="page-container">
+
+        <div class="header-div">
+
+            <h1 id="main-heading">Berdibayeva Sayazhan</h1>
+            <h2>IT-2501, 2nd Year</h2>
+
+        </div>
+        <div class="main-div">
+            <h3>About Me</h3>
+            <p class="highlight" style="font-size: 16px; line-height: 1.6;">
+                Hello, World! I am Sayazhan. I was born on November 2, 2007, in Kyzylorda, and currently, I am studying in Astana. A fun fact about me is that I am left-handed and I am learning Japanese.
+            </p>
+
+            <h3>My Top 3 Hobbies</h3>
+
+            <ol>
+                <li>Table Tennis</li>
+                <li>Debating</li>
+                <li>Watching Asian Dramas</li>
+            </ol>
+
+            <h3>My Favorite Websites</h3>
+
+            <ul>
+                <li>Telegram</li>
+                <li>YouTube</li>
+                <li>Doramaland</li>
+            </ul>
+
+            <h3>My Photo</h3>
+
+            <img src="c:\Users\sayaz\Downloads\WhatsApp Image 2026-09-15 at 15.15.03 (1).jpeg" alt="My photo" class="my-photo">
+
+            <h3>Useful Links</h3>
+
+            <p>
+                <a href="https://dorama.land/" target="_blank">Watch on Doramaland</a>
+            </p>
+
+            <p>
+                <a href="https://www.youtube.com/" target="_blank">Go to YouTube</a>
+            </p>
+
+            <h3>Interactive Element</h3>
+
+            <button type="button">Click Me</button>
+
+            <hr>
+            <h3>Weekly Schedule</h3>
+            <table border="1">
+                <tr>
+                    <th>Subject</th>
+                    <th>Day</th>
+                    <th>Time</th>
+                </tr>
+
+                <tr>
+                    <td>Discrete Mathematics</td>
+                    <td>Monday</td>
+                    <td>14:00 - 15:50</td>
+                </tr>
+
+                <tr>
+                    <td>Web Technologies</td>
+                    <td>Wednesday</td>
+                    <td>16:00 - 16:50</td>
+                </tr>
+
+                <tr>
+                    <td>Kazakh Language</td>
+                    <td>Friday</td>
+                    <td>16:00 - 17:50</td>
+                </tr>
+            </table>
+
+            <h3>My mood today</h3>
+            <p>
+                Studying all day! Feeling tired 🤓 also super focused 💻, and motivated 🚀.
+            </p>
+
+            <h3>Form</h3>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="color">Favorite Color:</label><br>
+                <input type="color" id="color" name="color"><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+            <hr>
+
+            <h3>CSS Positioning</h3>
+            <div class="pos-static">
+                Static Position: Normal document flow.
+            </div>
+
+            <div class="pos-relative">
+                Relative Position
+            </div>
+            <div class="pos-parent">
+                Parent container for absolute element
+                <div class="pos-absolute">
+                    Absolute Position
+                </div>
+            </div>
+            <hr>
+
+
+            <h3>Float and Clear</h3>
+            <div class="float-container">
+                <div class="float-box-left">
+                    Left box 
+                </div>
+                <div class="float-box-right">
+                    Right box 
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-div">
+        <p>&copy; 2026 Berdibayeva Sayazhan - IT-2501</p>
+    </div>
+
+</body>
+</html>
